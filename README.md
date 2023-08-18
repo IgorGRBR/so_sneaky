@@ -24,10 +24,10 @@ Guards can't see you through the walls or when you're behind. Getting in their l
 Make sure you have installed all the necessary dependencies:
 
 On Debian/Ubuntu:
-`sudo apt-get install clang xorg xorg-dev libxext-dev zlib1g-dev libbsd-dev`
+`sudo apt-get install make clang xorg xorg-dev libxext-dev zlib1g-dev libbsd-dev`
 
 On Fedora:
-`sudo dnf install clang libXext libXext-devel zlib zlib-devel libbsd libbsd-devel`
+`sudo dnf install make clang libXext libXext-devel zlib zlib-devel libbsd libbsd-devel`
 
 Then `cd` into the repository and then `make`.
 
