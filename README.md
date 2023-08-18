@@ -11,6 +11,8 @@ In this game you play as a secret agent trying to escape bandit's base. The twis
 
 Guards can't see you through the walls or when you're behind. Getting in their line of sight will result in a game over. Your goal is to collect all keycards and reach the exit of the level without getting noticed.
 
+![screenshot of level 3](/images_src/screenshot.png)
+
 *My definition of compatible is that the norminette doesn't complain about the code :).
 
 ## Building instructions
