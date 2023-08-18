@@ -1,0 +1,32 @@
+#a asset_list_path <- specifies a custom asset list
+#t <type> <data> <- specifies a data tag for the consecutive item type
+#l <- start of a level data, followed by the level array
+#0 = do nothing
+#^ = up redirector
+#< = left redirector
+#> = right redirector
+#v = down redirector
+#l = locker
+#b = box
+#e = enemy
+#k = keycard
+#o = button
+#t = trap
+#d = door
+#Enemy tag:
+#Each enemy has to start with 3 different properties: initial direction, preferred direction and walking strategy
+#Initial direction - the direction the enemy starts with at the beginning of the level: 0 - up, 1 - right, 2 - down, 3 - left
+#Preferred direction - the direction the enemy prefers to turn towards/wall to walk along: 0 - up (just stops when hit a wall), 1 - right, 2 - down (bounces back when hit a wall), 3 - left
+#Walking strategy - the pattern of walking the enemy uses: 0 and 3 - random walking, 1 - hugging a wall, 2 - lazy turning
+#Each of these properties are represented with a single 6 bit number, calculated by the following formula: walking strategy + 4 * initial direction + 16 * preferred direction
+t k 1
+t k 2
+l
+0000000000000
+0k00000000000
+0000000000000
+000000000k000
+0000000000000
+0000000000000
+0000e000000e0
+0000000000000

@@ -1,0 +1,80 @@
+# Here are all the asset paths that are used by the game
+
+# main character idle
+i mc_idle_d_0 images/mc_idle_d_0.tga
+i mc_idle_r_0 images/mc_idle_r_0.tga
+i mc_idle_u_0 images/mc_idle_u_0.tga
+
+# main character walking
+i mc_walk_d_0 images/mc_walk_d_0.tga
+i mc_walk_d_1 images/mc_walk_d_1.tga
+i mc_walk_d_2 images/mc_walk_d_2.tga
+i mc_walk_d_3 images/mc_walk_d_3.tga
+i mc_walk_r_0 images/mc_walk_r_0.tga
+i mc_walk_r_1 images/mc_walk_r_1.tga
+i mc_walk_r_2 images/mc_walk_r_2.tga
+i mc_walk_r_3 images/mc_walk_r_3.tga
+i mc_walk_u_0 images/mc_walk_u_0.tga
+i mc_walk_u_1 images/mc_walk_u_1.tga
+i mc_walk_u_2 images/mc_walk_u_2.tga
+i mc_walk_u_3 images/mc_walk_u_3.tga
+
+# main character neutralized
+i mc_neutralized_d_0 images/mc_neutralized_d_0.tga
+i mc_neutralized_r_0 images/mc_neutralized_r_0.tga
+i mc_neutralized_u_0 images/mc_neutralized_u_0.tga
+
+# enemy patrol idle
+i enemy_idle_d_0 images/enemy_idle_d_0.tga
+i enemy_idle_r_0 images/enemy_idle_r_0.tga
+i enemy_idle_u_0 images/enemy_idle_u_0.tga
+
+# enemy patrol walking
+i enemy_walk_d_0 images/enemy_walk_d_0.tga
+i enemy_walk_d_1 images/enemy_walk_d_1.tga
+i enemy_walk_d_2 images/enemy_walk_d_2.tga
+i enemy_walk_d_3 images/enemy_walk_d_3.tga
+i enemy_walk_r_0 images/enemy_walk_r_0.tga
+i enemy_walk_r_1 images/enemy_walk_r_1.tga
+i enemy_walk_r_2 images/enemy_walk_r_2.tga
+i enemy_walk_r_3 images/enemy_walk_r_3.tga
+i enemy_walk_u_0 images/enemy_walk_u_0.tga
+i enemy_walk_u_1 images/enemy_walk_u_1.tga
+i enemy_walk_u_2 images/enemy_walk_u_2.tga
+i enemy_walk_u_3 images/enemy_walk_u_3.tga
+
+# enemy patrol action
+i enemy_action_d_0 images/enemy_action_d_0.tga
+i enemy_action_r_0 images/enemy_action_r_0.tga
+i enemy_action_u_0 images/enemy_action_u_0.tga
+
+# Keycards
+i purple_kc images/purple_keycard.tga
+i green_kc images/green_keycard.tga
+i orange_kc images/orange_keycard.tga
+
+# Tiles
+i tile_floor images/floor_tile.tga
+i tile_open_exit images/open_exit_tile.tga
+i tile_closed_exit images/closed_exit_tile.tga
+i tile_wall images/wall_tile.tga
+
+# doors
+i purple_door_vc images/purple_door_v_closed.tga 0 32
+i purple_door_vo images/purple_door_v_open.tga 0 32
+i purple_door_hc1 images/purple_door_h_closed.tga 0 32
+i purple_door_hc2 images/purple_door_h_closed2.tga 0 32
+i purple_door_ho1 images/purple_door_h_open.tga 0 32
+i purple_door_ho2 images/purple_door_h_open2.tga 0 32
+i green_door_vc images/green_door_v_closed.tga 0 32
+i green_door_vo images/green_door_v_open.tga 0 32
+i green_door_hc1 images/green_door_h_closed.tga 0 32
+i green_door_hc2 images/green_door_h_closed2.tga 0 32
+i green_door_ho1 images/green_door_h_open.tga 0 32
+i green_door_ho2 images/green_door_h_open2.tga 0 32
+i orange_door_vc images/orange_door_v_closed.tga 0 32
+i orange_door_vo images/orange_door_v_open.tga 0 32
+i orange_door_hc1 images/orange_door_h_closed.tga 0 32
+i orange_door_hc2 images/orange_door_h_closed2.tga 0 32
+i orange_door_ho1 images/orange_door_h_open.tga 0 32
+i orange_door_ho2 images/orange_door_h_open2.tga 0 32

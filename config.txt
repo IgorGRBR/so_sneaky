@@ -1,0 +1,22 @@
+# This is a config file
+#window_size 1920 1080
+#window_size 854 480
+#window_size 1280 720
+window_size 1536 864
+# Arrow keys:
+up_code    126
+down_code  125
+left_code  123
+right_code 124
+# WASD:
+#up_code    13
+#down_code  1
+#left_code  0
+#right_code 2
+action_code 8
+cancel_code 7
+debug_code  6
+#q to quit:
+quit_code   12
+#esc to quit:
+#quit_code 53
