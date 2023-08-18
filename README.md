@@ -17,17 +17,17 @@ Guards can't see you through the walls or when you're behind. Getting in their l
 
 ## Building instructions
 
-I only tested building and running this game on MacOS, Fedora 38 and Ubuntu 20.04.
+*I only tested building and running this game on MacOS, Fedora 38 and Ubuntu 20.04.*
 
 ### Building on Linux
 
 Make sure you have installed all the necessary dependencies:
 
-On Ubuntu:
-`sudo apt-get install xorg libxext-dev zlib1g-dev libbsd-dev`
+On Debian/Ubuntu:
+`sudo apt-get install clang xorg xorg-dev libxext-dev zlib1g-dev libbsd-dev`
 
 On Fedora:
-`sudo dnf install libXext libXext-devel zlib zlib-devel libbsd libbsd-devel`
+`sudo dnf install clang libXext libXext-devel zlib zlib-devel libbsd libbsd-devel`
 
 Then `cd` into the repository and then `make`.
 
@@ -37,10 +37,10 @@ Ensure that [miniLibX](https://github.com/42Paris/minilibx-linux) is installed i
 `cd` into the repository and then `make`.
 
 ### Building on Windows 11
-Install either Fedora or Ubuntu under WSL2 and follow the Linux build instructions.
+Install either Fedora, Debian or Ubuntu under WSL2 and follow the Linux build instructions.
 
 ### Building on Windows 10
-Install WSL2 and follow Windows 11 build instructions
+Install WSL2 and follow Windows 11 build instructions. (Alternatively figure out how to run X11 programs under WSL1)
 
 ## Playing the game
 
@@ -56,7 +56,7 @@ will launch the first level of the game. You can use the arrow keys to move arou
 
 ## Game configuration
 
-This game can be configured with `config.txt` file (on MacOS), or `configlx.txt` (on Linux and other platforms). Inside the config file you can change the window size (miniLibX does not allow making windows resizable AFAIK), and change the default keybinds.
+This game can be configured with `config.txt` file (on MacOS), or `configlx.txt` (on Linux and other platforms). Inside the config file you can change the window size (miniLibX does not allow making windows resizable), and change the default keybinds.
 
 ## Level format
 
