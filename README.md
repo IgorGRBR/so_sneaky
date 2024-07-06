@@ -1,7 +1,7 @@
 # so_sneaky
 The so_long project from 42 School.
 
-This is a simple game written in C, using [miniLibX](https://github.com/42Paris/minilibx-linux) and [yLib](https://github.com/IgorkoGR/ylib). It is compatible with 42 School Norm v3*.
+This is a simple game written in C, using [miniLibX](https://github.com/42Paris/minilibx-linux) and [yLib](https://github.com/IgorGRBR/ylib). It is compatible with 42 School Norm v3*.
 
 In this game you play as a secret agent trying to escape bandit's base. The twist is that you don't have any weapons, while they do, so your goal is to escape without getting noticed. Each level has an exit. The exit is locked, and it unlocks once you collect all the keycards on the level. Levels may also contain locked doors, that can only be unlocked with a certain type (color) of a keycard. Levels are being constantly patroled by the bandit guards. They patrol their area using one of 3 patrol strategies:
 
